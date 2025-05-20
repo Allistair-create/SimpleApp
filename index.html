@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>API Demo: Fetch Users</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; }
+    #userList { margin-top: 1.5rem; }
+    .user-card { 
+      background: #f4f4f4; 
+      border-radius: 8px; 
+      margin: 10px 0; 
+      padding: 1rem; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .loading { color: #0077cc; }
+    .error { color: #e74c3c; }
+  </style>
+</head>
+<body>
+  <h1>Fetch Users from an API</h1>
+  <button id="loadBtn">Load Users</button>
+  <div id="userList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
